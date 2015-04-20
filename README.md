@@ -86,7 +86,7 @@ If you are writing a package that contains an Harmony module, you should include
 ```
 {
   "require": {
-    "harmony/harmony-module-interfaces": "~1.0"
+    "harmony/harmony-module-interface": "~1.0"
   }
 }
 ```
