@@ -1,5 +1,5 @@
-Harmony module interfaces
-=========================
+Harmony module interface
+========================
 
 Out of the box, Harmony is a nice UI interface to help you with your PHP projects. However, it does not bring
 many features. In order to be completely useful, it should be able to analyze your project, and even better,

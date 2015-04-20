@@ -1,7 +1,7 @@
 {
-    "name": "harmony/harmony-module-interfaces",
+    "name": "harmony/harmony-module-interface",
     "type": "library",
-    "description": "The harmony-module-interfaces package contains interfaces to improve the integration of your project with Harmony.",
+    "description": "The harmony-module-interface package contains interfaces to improve the integration of your project with Harmony.",
     "keywords": ["harmony", "module"],
     "homepage": "http://mouf-php.com",
     "license": "MIT",
