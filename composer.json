@@ -1,0 +1,23 @@
+{
+    "name": "harmony/harmony-module-interfaces",
+    "type": "library",
+    "description": "The harmony-module-interfaces package contains interfaces to improve the integration of your project with Harmony.",
+    "keywords": ["harmony", "module"],
+    "homepage": "http://mouf-php.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Harmony\\Module\\": "src/"
+        }
+    }
+}
