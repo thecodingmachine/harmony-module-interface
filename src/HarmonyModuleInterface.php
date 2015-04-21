@@ -9,6 +9,8 @@
  */
 namespace Harmony\Module;
 
+use Interop\Container\ContainerInterface;
+
 /**
  * Classes implementing this interface represent modules that can be used by Harmony.
  *
