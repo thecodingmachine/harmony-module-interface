@@ -18,7 +18,17 @@ interface ContainerExplorerInterface
 {
     /**
      * Returns the name of the instances implementing `$type`
+     *
+     * @param string $type A fully qualified class or interface name
      * @return string[]
      */
     public function getInstancesByType($type);
+
+    /**
+     * Returns the name of the instances whose tag is `$tag`
+     *
+     * @param string $tag The tag to retrieve
+     * @return string[]
+     */
+    public function getInstancesByTag($tag);
 }

@@ -65,20 +65,28 @@ object implementing `ContainerExplorerInterface`.
 
 **ContainerExplorerInterface**
 ```php
-/**
- * Classes implementing this interface can explore a container.
- *
- * @author David Negrier
- */
 interface ContainerExplorerInterface
 {
     /**
      * Returns the name of the instances implementing `$type`
+     *
+     * @param string $type A fully qualified class or interface name
      * @return string[]
      */
     public function getInstancesByType($type);
+    
+    /**
+     * Returns the name of the instances whose tag is `$tag`
+     *
+     * @param string $tag The tag to retrieve
+     * @return string[]
+     */
+    public function getInstancesByTag($tag);
 }
 ```
+
+Note: some containers cannot be searched by type. Other containers do not have a "tag" mechanism. If your container does not
+support this feature, the matching function should return an empty array.
 
 If you are writing a package that contains an Harmony module, you should include this package into your Composer dependencies:
 
