@@ -33,8 +33,6 @@ Modules should implement this simple interfaces:
 ```php
 /**
  * Classes implementing this interface represent modules that can be used by Harmony.
- *
- * @author David Negrier
  */
 interface HarmonyModuleInterface
 {
